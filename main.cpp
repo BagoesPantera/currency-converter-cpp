@@ -126,7 +126,7 @@ int convertion(){
         return 0;
     }
     
-    total = (currencyNum[INTto]/currencyNum[INTfrom]) * amount; //pemikiran random, tiba2 aja kepikiran
+    total = (currencyNum[INTto]/currencyNum[INTfrom]) * amount;
 
     // PREPARING OUTPUT
     //output
