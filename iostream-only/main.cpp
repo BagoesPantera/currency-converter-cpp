@@ -43,8 +43,8 @@ int validate(string *currencySym, int arrLength, char *curr){
 
 string convertion(){
     char from[1000],to[1000];
-    string currencySym[7] = {"USD", "IDR", "JPY", "KRW", "RUB", "EUR", "GBP"};
-    float currencyNum[7] = {1, 14319.32, 113.84, 1192.3, 74.03, 0.886, 0.755};
+    string currencySym[9] = {"USD", "IDR", "JPY", "KRW", "RUB", "EUR", "GBP", "ETH", "BTC"};
+    float currencyNum[9] = {1, 14319.32, 113.84, 1192.3, 74.03, 0.886, 0.755, 0.00030443, 0.00002336};
     int arrLength = sizeof(currencySym) / sizeof(currencySym[0]);
     int  amount;
     float total;
